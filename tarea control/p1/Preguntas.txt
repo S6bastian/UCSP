@@ -1,0 +1,39 @@
+1. 
+    a. Puntero This: 
+    Se usa para hacer referencia a los miembros de datos del objeto
+    el uso de este puntero es para evitar colisiones de nombres.
+    
+    b. Destructor: 
+    El destructor que se llama de la misma manera que el contructor
+    pero con un ~ andes del nombre este realiza una limpieza para que se reclame 
+    la memoria por otros objetos ademas este se llama implicitamente cuando no es 
+    definido.
+    
+    c. Memory Leak: 
+    Es un error que sucede cuando retenemos memoria que no estamos usando.
+    
+    d. Operadores punto y flecha:
+    El operador punto (.) se utiliza para acceder a los miembros de un objeto 
+    cuando se conoce el nombre del objeto. El operador flecha (->) se utiliza 
+    para acceder a los miembros de un objeto cuando se tiene un puntero al objeto. 
+    
+    e. Friend: 
+    Es una funcion no miembro con derecho a acceder a miembros publicos y no 
+    publicos de la clase.
+    
+    f. Dangling Pointer: 
+    Puntero que apunta a memoria con contenido indefinido
+2.
+    a. Downcasting:
+    Se usa para convertir un objeto de una clase base a una clase derivada, cuya
+    relación se establece mediante herencia.
+    
+    b. dynamic cast:
+    Verifica en tiempo de ejecución si la conversión es válida y devuelve un puntero o 
+    referencia nulo en caso contrario este se usa para el downcast.
+    
+    c. typeid:
+    Permite conocer el tipo real de un objeto en tiempo de ejecución.
+    
+    d. type_info:
+    Clase que nos proporciona typeid.
