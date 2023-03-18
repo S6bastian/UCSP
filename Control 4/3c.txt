@@ -1,7 +1,0 @@
-(c) (2 points) Responda. Si al convertir la clase Fraction a genérica ¿existirá algun
-error en tiempo de compilación y/o ejecución. Detallar.
-
-    Sí habrán errores, como se muestra en 3b.cpp, existen varios erres de compilación por varios motivos
-    -Métodos incompatibles con el tipo de dato
-        -No puedes usar un double, float o string y el operador modulo %
-        -No puedes usar string y operadores aritméticos
